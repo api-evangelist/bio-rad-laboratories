@@ -1,7 +1,11 @@
 aid: bio-rad-laboratories
-url: https://raw.githubusercontent.com/api-evangelist/bio-rad-laboratories/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/bio-rad-laboratories/refs/heads/main/apis.yml
 modified: '2026-03-23'
 apis: []
 common:
   - type: Website
     url: https://www.bio-rad-laboratories.com
+description: >-
+  Bio-Rad is a global leader in developing and manufacturing a wide range of products
+  for the life science research and clinical diagnostic markets.
