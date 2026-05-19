@@ -25,6 +25,10 @@ modified: '2026-04-21'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/Bio-Rad-Laboratories
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/bio-rad
   - type: Website
     url: https://www.bio-rad.com
   - type: Portal
