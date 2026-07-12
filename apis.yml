@@ -26,6 +26,8 @@ modified: '2026-04-21'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/bio-rad-laboratories-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Bio-Rad-Laboratories
   - type: LinkedIn
