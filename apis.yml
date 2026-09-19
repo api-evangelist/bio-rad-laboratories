@@ -32,6 +32,16 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bio-rad-laboratories.png
 tags:
+  - Life Sciences
+  - Diagnostics
+  - Biotechnology
+  - Research
+  - Clinical
+  - Genomics
+  - Proteomics
+  - PCR
+  - Fortune 1000
+tags_raw:
   - Life Science
   - Diagnostics
   - Biotechnology
