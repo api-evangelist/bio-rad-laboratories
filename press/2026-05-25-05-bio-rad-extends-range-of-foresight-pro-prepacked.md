@@ -1,7 +1,9 @@
 ---
 title: Bio-Rad Extends Range of Foresight Pro Prepacked ...
 url: https://www.the-scientist.com/bio-rad-extends-range-of-foresight-pro-prepacked-chromatography-columns-for-biotherapeutic-production-72452
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Bio-Rad Laboratories" press release artificial intelligence'
 position: 5
 source: serpapi-google

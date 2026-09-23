@@ -1,7 +1,9 @@
 ---
 title: Activist Elliott Builds Big Stake in Life-Science Tools ...
 url: https://www.wsj.com/business/deals/activist-elliott-builds-big-stake-in-life-science-tools-supplier-bio-rad-c99b23fa
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Bio-Rad Laboratories" press release artificial intelligence'
 position: 3
 source: serpapi-google

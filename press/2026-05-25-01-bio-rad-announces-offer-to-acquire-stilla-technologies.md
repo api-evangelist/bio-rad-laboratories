@@ -1,7 +1,9 @@
 ---
 title: 📢 Bio-Rad Announces Offer to Acquire Stilla Technologies ...
 url: https://www.facebook.com/biorad/posts/-bio-rad-announces-offer-to-acquire-stilla-technologies-read-the-full-press-rele/1177841721017902/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Bio-Rad Laboratories" press release artificial intelligence'
 position: 1
 source: serpapi-google

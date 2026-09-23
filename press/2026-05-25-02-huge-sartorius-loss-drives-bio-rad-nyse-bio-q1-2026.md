@@ -1,7 +1,9 @@
 ---
 title: 'Huge Sartorius loss drives Bio-Rad (NYSE: BIO) Q1 2026 ...'
 url: https://www.stocktitan.net/sec-filings/BIO/10-q-bio-rad-laboratories-inc-quarterly-earnings-report-f49d8af29bd4.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Bio-Rad Laboratories" press release artificial intelligence'
 position: 2
 source: serpapi-google
