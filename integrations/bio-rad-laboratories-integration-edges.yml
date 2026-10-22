@@ -276,6 +276,72 @@ edges:
     signal_note: 'self-filed paid membership: listing alone = standard-participant; hand-reviewed'
   detected_by: sweep-ivd-diagnostics.py
   first_seen: '2026-10-21'
+- partner_name: Health Canada (Medical Device Licence)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://health-products.canada.ca/api/medical-devices/company/?id=114149&lang=en&type=json
+  category: Canadian medical device licence
+  contract_reference:
+    register: Health Canada Medical Devices Active Licence Listing (MDALL) public API (health-products.canada.ca/api/medical-devices)
+    standard: Canada Medical Devices Regulations (SOR/98-282), Medical Device Licence
+    spec_file: null
+    role: licence-holder
+    registered_name: BIO-RAD LABORATORIES, INC.
+    register_country: US
+    register_id: https://health-products.canada.ca/api/medical-devices/company/?id=114149&lang=en&type=json
+    company_status: A
+    matched_domain: bio-rad.com
+    matched_by: domain
+    certified_products:
+    - product: Health Canada Medical Device Licence, Class II
+      product_type: Class II
+      risk_class: 2
+      lapsed: false
+      first_issued: '1999-03-19'
+      conditional: false
+      licences_sample:
+      - ALLERGEN SIGE CONTROLS
+      - ANCA KIT AND SLIDES (ANTI NUCLEAR CYTOPLASMIC ANTIGEN)
+      - ANEMIA CONTROL
+      - AUTOIMMUNE EIA-ANA-6 PROFILE TEST
+      - BIO-RAD TOX/SEE MULTI-DRUG SCREEN PANEL
+    - product: Health Canada Medical Device Licence, Class III
+      product_type: Class III
+      risk_class: 3
+      lapsed: false
+      first_issued: '1999-08-25'
+      conditional: false
+      licences_sample:
+      - AMPLICHEK II
+      - BIOPLEX 2200 SYSTEM
+      - CARDIAC ASSESSMENT CONTROLS
+      - IMMUNOASSAY CONTROLS
+      - INTELIQ CARDIAC ADVANCE CONTROL
+    - product: Health Canada Medical Device Licence, Class IV
+      product_type: Class IV
+      risk_class: 4
+      lapsed: false
+      first_issued: '1998-09-11'
+      conditional: false
+      licences_sample:
+      - BIOPLEX 2200 SYSTEM
+      - GS HBSAG EIA 3.0 AND HBSAG CONFIRMATORY ASSAY (DONOR SCREENING)
+      - GS HIV-1/HIV-2 PLUS O EIA (DONOR SCREENING/CADAVERIC TESTING)
+      - MONOLISA ANTI-HBS
+      - VIROCLEAR
+    signal_note: certified_products = one entry per device RISK CLASS licensed by Health Canada, lapsed when no
+      licence of that class is still issued (status I / D, no end date); licence names are a sample, licence and
+      device counts are context, never counted
+    detected_by: sweep-canada-medical-device-licensing.py
+    detected: '2026-10-22'
+    identity: wikidata Q2904022 'Bio-Rad Laboratories' P856 http://www.bio-rad.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-canada-medical-device-licensing.py
+  first_seen: '2026-10-22'
 generated: '2026-10-19'
 method: searched
 source:
@@ -290,3 +356,5 @@ checked:
 - https://ec.europa.eu/tools/eudamed/api/
 - https://www.accessdata.fda.gov/premarket/ftparea/clia_detail.zip
 - https://www.advamed.org/advameddx/members/
+- https://health-products.canada.ca/api/medical-devices/company/?lang=en&type=json
+- https://health-products.canada.ca/api/medical-devices/licence/?lang=en&type=json
